@@ -1,0 +1,6 @@
+<resources>
+    <!-- 使用 AppCompat 主题 -->
+    <style name="Theme.CameraXApp" parent="Theme.AppCompat.Light.DarkActionBar">//正是这串代码定义了appcompat是parent类从而使得app不再闪退成功运行。
+        <!-- 你可以在这里定义自己的样式设置 -->
+    </style>
+</resources>

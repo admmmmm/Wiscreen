@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CameraXApp</string>
+    <string name="take_photo">拍照片</string>
+    <string name="start_capture">开始捕捉</string>
+</resources>
