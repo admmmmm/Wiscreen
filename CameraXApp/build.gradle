@@ -1,5 +1,27 @@
-// Top-level build file where you can add configuration options common to all sub-projects/modules.
+// 顶层 build.gradle 文件
 plugins {
-alias(libs.plugins.android.application) apply false
+    alias(libs.plugins.android.application) apply false
     alias(libs.plugins.kotlin.android) apply false
+}
+
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://maven.aliyun.com/repository/google' }  // 阿里云 Google 仓库
+        maven { url 'https://maven.aliyun.com/repository/jcenter' }  // 阿里云 JCenter 仓库
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.4.2'  // Android Gradle 插件版本，视需要调整
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.8.10'  // Kotlin 插件版本，视需要调整
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://maven.aliyun.com/repository/google' }  // 阿里云 Google 仓库
+        maven { url 'https://maven.aliyun.com/repository/jcenter' }  // 阿里云 JCenter 仓库
+    }
 }
