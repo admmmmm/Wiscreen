@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Wiscreen_proto</string>
+    <string name="take_photo">拍照</string>
+    <string name="guide_text">请拍摄3张照片以设定健康距离</string>
+</resources>
