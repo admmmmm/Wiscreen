@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <!-- 重设基准值 -->
+    <!-- android:icon="@drawable/ic_reset" -->
+
+    <item
+        android:id="@+id/action_reset"
+        android:title="@string/action_reset"
+
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom" />
+
+    <!-- 切换护眼模式 -->
+    <!--android:icon="@drawable/ic_eye_protection"-->
+    <item
+        android:id="@+id/action_toggle_eye_mode"
+        android:title="@string/action_toggle_eye_mode"
+
+        android:orderInCategory="200"
+        app:showAsAction="ifRoom" />
+
+    <!-- 关于我们 -->
+    <!--android:icon="@drawable/ic_info"-->
+    <item
+        android:id="@+id/action_about"
+        android:title="@string/action_about"
+
+        android:orderInCategory="300"
+        app:showAsAction="ifRoom" />
+
+    <!-- 反馈问题 -->
+    <!--android:icon="@drawable/ic_feedback"-->
+    <item
+        android:id="@+id/action_feedback"
+        android:title="@string/action_feedback"
+
+        android:orderInCategory="400"
+        app:showAsAction="ifRoom" />
+
+    <!-- 分享应用 -->
+    <!--android:icon="@drawable/ic_share"-->
+    <item
+        android:id="@+id/action_share"
+        android:title="@string/action_share"
+
+        android:orderInCategory="500"
+        app:showAsAction="ifRoom" />
+
+</menu>

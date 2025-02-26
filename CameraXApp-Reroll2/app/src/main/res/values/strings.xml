@@ -1,0 +1,30 @@
+<resources>
+    <!-- 原有内容 -->
+    <string name="app_name">Wiscreen_proto</string>
+    <string name="take_photo">拍照</string>
+    <string name="guide_text">请拍摄3张照片以设定健康距离</string>
+    <string name="reset_baseline">重置基准值</string>
+    <string name="about_us">关于我们</string>
+
+    <!-- 新增内容 -->
+    <string name="reset_confirm_title">确认重置</string>
+    <string name="reset_confirm_message">确定要清除所有基准数据吗？</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="about_title">关于 Wiscreen</string>
+    <string name="version_info">版本 0.1.0\n开发团队：Team Wiscreen</string>
+    <string name="baseline_reset_toast">基准值已重置</string>
+    <string name="progress_template">进度: %d/3</string>
+    <string name="face_ratio_template">面部占比: %.2f</string>
+    <string name="capture_progress">已拍摄第 %1$d/3 张 (当前值: %2$.2f)</string>
+    <string name="baseline_set_success">基准值已设定：%.2f</string>
+    <string name="camera_permission_denied">需要相机权限才能使用此功能</string>
+
+    <!-- 菜单文字 -->
+    <string name="action_reset">重设基准值</string>
+    <string name="action_toggle_eye_mode">切换护眼模式</string>
+    <string name="action_about">关于我们</string>
+    <string name="action_feedback">反馈问题</string>
+    <string name="action_share">分享应用</string>
+</resources>
+

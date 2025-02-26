@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 按钮的按下效果 -->
+    <item android:state_pressed="true">
+        <shape
+            android:shape="oval">
+            <solid android:color="#FF4CAF50"/>  <!-- 按下时的颜色 -->
+            <size
+                android:width="100dp"
+                android:height="100dp"/>
+        </shape>
+    </item>
+
+    <!-- 按钮的默认效果 -->
+    <item>
+        <shape
+            android:shape="oval">
+            <solid android:color="#FFC107"/>  <!-- 默认颜色 -->
+            <size
+                android:width="100dp"
+                android:height="100dp"/>
+        </shape>
+    </item>
+
+</selector>
